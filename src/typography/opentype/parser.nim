@@ -1,4 +1,7 @@
-import ../font, os, tables, unicode, vmath, types, pixie/paths, flatty/binny
+import ../font, os, tables, unicode, vmath, types, flatty/binny
+
+# import pixie/paths
+import ../paths
 
 proc readUint16Seq(buf: string, offset, len: int): seq[uint16] =
   result = newSeq[uint16](len)

@@ -1,4 +1,8 @@
-import algorithm, bumpy, chroma, pixie, font, tables, vmath, opentype/parser
+import algorithm, bumpy, chroma, font, tables, vmath, opentype/parser
+
+import paths
+import pixie/images
+import pixie/contexts
 
 type Font = font.Font
 
